@@ -1,0 +1,248 @@
+Restore Archived Project report for Lab1Demo
+Mon Nov 25 23:13:50 2019
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Mon Nov 25 23:13:50 2019 ;
+; Revision Name                   ; Lab1Demo                              ;
+; Top-level Entity Name           ; TOP_VGA_WITH_MSS_ALL                  ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/DELL/OneDrive - Technion/electronics_lab_1a/finalProject/final_final_proj_2.9_11.30.qar' into the 'C:/Users/DELL/OneDrive - Technion/electronics_lab_1a/finalProject/final_proj_2.9_11.30_restored/' directory
+Info: Generated report 'Lab1Demo.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/17.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4825 megabytes
+    Info: Processing ended: Mon Nov 25 23:13:50 2019
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++----------------------------------------------------------+
+; Files Restored                                           ;
++----------------------------------------------------------+
+; File Name                                                ;
++----------------------------------------------------------+
+; qar_info.json                                            ;
+; DE10_Standard_Audio.sdc                                  ;
+; Lab1Demo.qpf                                             ;
+; Lab1Demo.qsf                                             ;
+; RTL/GameController/collisionDetector.sv                  ;
+; RTL/GameController/delay.sv                              ;
+; RTL/GameController/gameScore.sv                          ;
+; RTL/GameController/gameStateMachine.sv                   ;
+; RTL/GameController/game_controller.sv                    ;
+; RTL/KEYBOARD/KBDINTF.bdf                                 ;
+; RTL/KEYBOARD/TOP_KBD_DEMOALL.bdf                         ;
+; RTL/KEYBOARD/bitrec.sv                                   ;
+; RTL/KEYBOARD/byterec.sv                                  ;
+; RTL/KEYBOARD/constants/Skey.bsf                          ;
+; RTL/KEYBOARD/constants/Skey.qip                          ;
+; RTL/KEYBOARD/constants/Skey.v                            ;
+; RTL/KEYBOARD/constants/Skey_bb.v                         ;
+; RTL/KEYBOARD/constants/enter.bsf                         ;
+; RTL/KEYBOARD/constants/enter.qip                         ;
+; RTL/KEYBOARD/constants/enter.v                           ;
+; RTL/KEYBOARD/constants/space.bsf                         ;
+; RTL/KEYBOARD/constants/space.qip                         ;
+; RTL/KEYBOARD/constants/space.v                           ;
+; RTL/KEYBOARD/keyPad_decoder.sv                           ;
+; RTL/KEYBOARD/keyToggle_decoder.sv                        ;
+; RTL/KEYBOARD/keyToggle_decoderIn.sv                      ;
+; RTL/KEYBOARD/lpf.sv                                      ;
+; RTL/KEYBOARD/spaceBreak.sv                               ;
+; RTL/MSS/SinTable.sv                                      ;
+; RTL/MSS/TOP_MSS_DEMO.bdf                                 ;
+; RTL/MSS/ToneDecoder.sv                                   ;
+; RTL/MSS/addr_counter.sv                                  ;
+; RTL/MSS/data_conversion.sv                               ;
+; RTL/MSS/down_counter.sv                                  ;
+; RTL/MSS/prescaler.sv                                     ;
+; RTL/RANDOM/random.sv                                     ;
+; RTL/RANDOM/randomBonus.sv                                ;
+; RTL/RANDOM/randomColor.bdf                               ;
+; RTL/RANDOM/random_brake.sv                               ;
+; RTL/RANDOM/random_color_create.sv                        ;
+; RTL/Seg7/SEG7.SV                                         ;
+; RTL/VGA/NumbersBitMap.sv                                 ;
+; RTL/VGA/TOP_VGA_WITH_MSS_ALL.bdf                         ;
+; RTL/VGA/VGA_Controller.sv                                ;
+; RTL/VGA/back_ground_draw.sv                              ;
+; RTL/VGA/back_ground_draw.sv.bak                          ;
+; RTL/VGA/back_ground_drawSqure.sv                         ;
+; RTL/VGA/ballBitMap.sv                                    ;
+; RTL/VGA/ball_move.sv                                     ;
+; RTL/VGA/bat_move.sv                                      ;
+; RTL/VGA/bat_square_object.sv                             ;
+; RTL/VGA/bonusBitMap.sv                                   ;
+; RTL/VGA/bonusRGBMux.sv                                   ;
+; RTL/VGA/bonus_Top.sv                                     ;
+; RTL/VGA/bonus_move.sv                                    ;
+; RTL/VGA/brickBitmap.sv                                   ;
+; RTL/VGA/brik.sv                                          ;
+; RTL/VGA/brik_mat.sv                                      ;
+; RTL/VGA/constants/Sentence_topY.bsf                      ;
+; RTL/VGA/constants/Sentence_topY.qip                      ;
+; RTL/VGA/constants/Sentence_topY.v                        ;
+; RTL/VGA/constants/Sentence_topY_bb.v                     ;
+; RTL/VGA/constants/ball_life_2.bsf                        ;
+; RTL/VGA/constants/ball_life_2.qip                        ;
+; RTL/VGA/constants/ball_life_2.v                          ;
+; RTL/VGA/constants/ball_life_2_bb.v                       ;
+; RTL/VGA/constants/ball_life_3.bsf                        ;
+; RTL/VGA/constants/ball_life_3.qip                        ;
+; RTL/VGA/constants/ball_life_3.v                          ;
+; RTL/VGA/constants/ball_life_3_bb.v                       ;
+; RTL/VGA/constants/ball_life_last.bsf                     ;
+; RTL/VGA/constants/ball_life_last.qip                     ;
+; RTL/VGA/constants/ball_life_last.v                       ;
+; RTL/VGA/constants/ball_life_last_bb.v                    ;
+; RTL/VGA/constants/bat_x_loc.bsf                          ;
+; RTL/VGA/constants/bat_x_loc.qip                          ;
+; RTL/VGA/constants/bat_x_loc.v                            ;
+; RTL/VGA/constants/bat_x_loc_bb.v                         ;
+; RTL/VGA/constants/bat_y_loc.bsf                          ;
+; RTL/VGA/constants/bat_y_loc.qip                          ;
+; RTL/VGA/constants/bat_y_loc.v                            ;
+; RTL/VGA/constants/bat_y_loc_bb.v                         ;
+; RTL/VGA/constants/box_x_loc.bsf                          ;
+; RTL/VGA/constants/box_x_loc.qip                          ;
+; RTL/VGA/constants/box_x_loc.v                            ;
+; RTL/VGA/constants/box_x_loc_bb.v                         ;
+; RTL/VGA/constants/brik1.bsf                              ;
+; RTL/VGA/constants/brik1.qip                              ;
+; RTL/VGA/constants/brik1.v                                ;
+; RTL/VGA/constants/brik1_bb.v                             ;
+; RTL/VGA/constants/brik1_x.bsf                            ;
+; RTL/VGA/constants/brik1_x.qip                            ;
+; RTL/VGA/constants/brik1_x.v                              ;
+; RTL/VGA/constants/brik1_x_bb.v                           ;
+; RTL/VGA/constants/brik1_y.bsf                            ;
+; RTL/VGA/constants/brik1_y.qip                            ;
+; RTL/VGA/constants/brik1_y.v                              ;
+; RTL/VGA/constants/brik1_y_bb.v                           ;
+; RTL/VGA/constants/brik2_x.bsf                            ;
+; RTL/VGA/constants/brik2_x.qip                            ;
+; RTL/VGA/constants/brik2_x.v                              ;
+; RTL/VGA/constants/brik2_x_bb.v                           ;
+; RTL/VGA/constants/brik2_y.bsf                            ;
+; RTL/VGA/constants/brik2_y.qip                            ;
+; RTL/VGA/constants/brik2_y.v                              ;
+; RTL/VGA/constants/brik2_y_bb.v                           ;
+; RTL/VGA/constants/gameNameX.bsf                          ;
+; RTL/VGA/constants/gameNameX.qip                          ;
+; RTL/VGA/constants/gameNameX.v                            ;
+; RTL/VGA/constants/gameNameX_bb.v                         ;
+; RTL/VGA/constants/gameNameY.bsf                          ;
+; RTL/VGA/constants/gameNameY.qip                          ;
+; RTL/VGA/constants/gameNameY.v                            ;
+; RTL/VGA/constants/gameNameY_bb.v                         ;
+; RTL/VGA/constants/lifes_y_loc.bsf                        ;
+; RTL/VGA/constants/lifes_y_loc.qip                        ;
+; RTL/VGA/constants/lifes_y_loc.v                          ;
+; RTL/VGA/constants/lifes_y_loc_bb.v                       ;
+; RTL/VGA/constants/score1000Xloc.bsf                      ;
+; RTL/VGA/constants/score1000Xloc.qip                      ;
+; RTL/VGA/constants/score1000Xloc.v                        ;
+; RTL/VGA/constants/score1000Xloc_bb.v                     ;
+; RTL/VGA/constants/score100Xloc.bsf                       ;
+; RTL/VGA/constants/score100Xloc.qip                       ;
+; RTL/VGA/constants/score100Xloc.v                         ;
+; RTL/VGA/constants/score100Xloc_bb.v                      ;
+; RTL/VGA/constants/score10Xloc.bsf                        ;
+; RTL/VGA/constants/score10Xloc.qip                        ;
+; RTL/VGA/constants/score10Xloc.v                          ;
+; RTL/VGA/constants/score10Xloc_bb.v                       ;
+; RTL/VGA/constants/score1Xloc.bsf                         ;
+; RTL/VGA/constants/score1Xloc.qip                         ;
+; RTL/VGA/constants/score1Xloc.v                           ;
+; RTL/VGA/constants/score1Xloc_bb.v                        ;
+; RTL/VGA/constants/scoreLXloc.bsf                         ;
+; RTL/VGA/constants/scoreLXloc.qip                         ;
+; RTL/VGA/constants/scoreLXloc.v                           ;
+; RTL/VGA/constants/scoreLXloc_bb.v                        ;
+; RTL/VGA/constants/scoreYLloc.bsf                         ;
+; RTL/VGA/constants/scoreYLloc.qip                         ;
+; RTL/VGA/constants/scoreYLloc.v                           ;
+; RTL/VGA/constants/scoreYLloc_bb.v                        ;
+; RTL/VGA/constants/scoreYloc.bsf                          ;
+; RTL/VGA/constants/scoreYloc.qip                          ;
+; RTL/VGA/constants/scoreYloc.v                            ;
+; RTL/VGA/constants/scoreYloc_bb.v                         ;
+; RTL/VGA/gameName.bdf                                     ;
+; RTL/VGA/gameNameLettersBitMap.sv                         ;
+; RTL/VGA/game_name_letter_mux.sv                          ;
+; RTL/VGA/lettersBitMap.sv                                 ;
+; RTL/VGA/lifeDisplay.bdf                                  ;
+; RTL/VGA/mux_bonus.sv                                     ;
+; RTL/VGA/mux_press_start.sv                               ;
+; RTL/VGA/objects_mux.sv                                   ;
+; RTL/VGA/score_letter_mux.sv                              ;
+; RTL/VGA/sentence_mux.sv                                  ;
+; RTL/VGA/sentence_print.bdf                               ;
+; RTL/VGA/square_object.sv                                 ;
+; RTL/audio_codec_controller/audio_codec_controller.qarlog ;
+; RTL/audio_codec_controller/audio_codec_controller.qxp    ;
+; RTL/scoreDisplay.bdf                                     ;
+; Sentence_topX.bsf                                        ;
+; Sentence_topX.qip                                        ;
+; Sentence_topX.v                                          ;
+; Sentence_topX_bb.v                                       ;
+; Waveform1.vwf                                            ;
+; Waveform2.vwf                                            ;
+; assignment_defaults.qdf                                  ;
+; constraints/DE10_Standard_Audio.sdc                      ;
+; constraints/pin.tcl                                      ;
+; db/stp4_auto_stripped.stp                                ;
+; oneBonus.bdf                                             ;
+; one_sec_counter.sv                                       ;
+; output_files/stp4.stp                                    ;
++----------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
